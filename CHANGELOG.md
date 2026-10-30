@@ -5,6 +5,11 @@ All notable changes to the `Threecommerce_OneStepCheckout` module are documented
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.6] - 2026-10-30
+
+### Changed
+- Licenza nel `composer.json` ora `proprietary` (modulo commerciale), nessuna modifica funzionale.
+
 ## [1.2.5] - 2026-10-30
 ### Changed
 - `composer.json`: il suggerimento del tema Hyvä punta a `hyva-themes/magento2-default-theme-csp` (tema compatibile con la CSP) invece di `magento2-default-theme`. Solo metadati: nessun cambio di codice o di comportamento.
