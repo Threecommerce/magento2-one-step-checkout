@@ -5,6 +5,10 @@ All notable changes to the `Threecommerce_OneStepCheckout` module are documented
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 1.2.8
+
+- Compatibile con la build CSP di Alpine (tema `Hyva/default-csp`, policy senza `unsafe-eval`): `x-data` senza argomenti (la configurazione del place-order passa dall'attributo `data-osc-config`), pannelli apribili (condizioni e riepilogo ordine) come componente registrato `oscToggle`, handler dell'evento `osc:place-order` come metodo. Nessun cambio di comportamento.
+
 ## 1.2.7
 
 - Security (Hyvä/Magewire): the extra billing/address fields sent by the browser can no longer set amount, total, tax, discount, price, weight or `free_shipping` columns on the quote address.
