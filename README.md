@@ -4,7 +4,7 @@ A **single-page, Shopify-style checkout** for Magento 2 and Mage-OS, with two fr
 
 ![Single-page checkout with the form on the left and the order summary on the right](images/one-step-checkout-page.png)
 
-**Compatibility:** Magento Open Source / Adobe Commerce 2.4.4 – 2.4.9 · Mage-OS 1.x / 3.x · PHP 8.1 – 8.4 · Themes: Breeze, Hyvä
+**Compatibility:** Magento Open Source / Adobe Commerce 2.4.4 – 2.4.9 · Mage-OS 1.x / 3.x · PHP 8.1 – 8.5 · Themes: Breeze, Hyvä
 **License:** commercial · coming soon
 
 ## Features
@@ -26,7 +26,7 @@ A **single-page, Shopify-style checkout** for Magento 2 and Mage-OS, with two fr
 ## Requirements
 
 - Magento Open Source / Adobe Commerce 2.4.4+ or Mage-OS
-- PHP 8.1 – 8.4
+- PHP 8.1 – 8.5
 - `magento/module-checkout-agreements` and `magewirephp/magewire` ^1.13
 - Breeze: `swissup/module-breeze` with a Breeze theme active
 - Hyvä: a Hyvä theme, `hyva-themes/magento2-graphql-tokens` and Magento's GraphQL modules enabled
